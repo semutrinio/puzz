@@ -1,0 +1,36 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Torrance_puzzle</title>
+    <script src = "Torrance_puzzle.js"></script>
+    <h1 align = center>15 Puzzle Game</h1>
+</head>
+    <body onload = "myFunction()">
+        <table align = center border="5" width="400" cellpadding="40">
+            <tr><!First row>
+                <td><div id = "cell_0,0"/></td>
+                <td><div id = "cell_0,1"/></td>
+                <td><div id = "cell_0,2"/></td>
+                <td><div id = "cell_0,3"/></td>
+            </tr>
+            <tr><!Second row>
+                <td><div id = "cell_1,0"/></td>
+                <td><div id = "cell_1,1"/></td>
+                <td><div id = "cell_1,2"/></td>
+                <td><div id = "cell_1,3"/></td>
+            </tr>
+            <tr><!Third row>
+                <td><div id = "cell_2,0"/></td>
+                <td><div id = "cell_2,1"/></td>
+                <td><div id = "cell_2,2"/></td>
+                <td><div id = "cell_2,3"/></td>
+            </tr>
+            <tr><!Fourth row>
+                <td><div id = "cell_3,0"/></td>
+                <td><div id = "cell_3,1"/></td>
+                <td><div id = "cell_3,2"/></td>
+                <td><div id = "cell_3,3"/></td>
+            </tr>
+        </table>
+    </body>
+</html>
